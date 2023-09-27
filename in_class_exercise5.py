@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_json('data/imdb_movies_2000to2022.prolific.json')
+temp_df = pd.read_json('data/imdb_movies_2000to2022.prolific.json')
 
-
+print(temp_df)
