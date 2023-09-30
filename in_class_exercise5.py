@@ -1,5 +1,7 @@
 import pandas as pd
 from sklearn.metrics import DistanceMetric, pairwise_distances
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 df = pd.read_json('data/imdb_movies_2000to2022.prolific.json', lines=True)
 
